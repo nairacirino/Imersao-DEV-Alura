@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>   
+    <meta charset="UTF-8">
+    <title class="titulo">Calculadora de média</title>
+    <link href="css/index.css" rel="stylesheet">
+</head
+
+<body>
+    <header class="cabeçalho">
+        <h1>CALCULADORA DE MÉDIA</h1>
+        <p>Descubra qual a sua média de nota de todas as provas!</p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="logo" alt="">
+    </header>
+
+    <div class="entrada">
+        <form>
+            <fieldset>
+                <legend>INSIRA OS DADOS NO FORMULÁRIO ABAIXO</legend>
+                <br>
+                <label>NOME</label>
+                <input type="text" id="nomeAluno">
+
+                <label>NOTA DO PRIMEIRO BIMESTRE</label>
+                <input type="number" id="n1" max="10" min="0">
+
+                <label>NOTA DO SEGUNDO BIMESTRE</label>
+                <input type="number" id="n2" max="10" min="0">
+
+                <label>NOTA DO TERCEIRO BIMESTRE</label>
+                <input type="number" id="n3" max="10" min="0">
+
+                <label>NOTA DO QUARTO BIMESTRE</label>
+                <input type="number" id="n4" max="10" min="0">
+
+                <input type="submit" value="CALCULAR" onclick=calcular()>
+            </fieldset>
+        </form>
+        
+        <p class="resultadoTitulo">RESULTADO:</p>
+        <p id="resultado"></p>
+    </div>
+</body>
+</html>
