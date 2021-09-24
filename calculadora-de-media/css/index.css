@@ -1,25 +1,32 @@
-.titulo{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color:cyan;
-}
-
 header, body{
     background-color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'ARIAL';
     font-size: 100%;
     color: #FFFFFF;
     text-align: center;
-    
 }
 
-div, form{
+.logo {
+    width: 200px;
+}
+
+form{
     text-align: center;
 }
+
 .entrada,label,input{
     width: 75%;
     display: block;
     text-align: center;
+    margin: 0 auto;
 }
 
+.button{
+    width: 50%;
+}
 
+.btn{
+    width: 150px;
+    height: 40px;
+}
 

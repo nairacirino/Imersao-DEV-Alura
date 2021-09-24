@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title class="titulo">Calculadora de média</title>
     <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/index.js"></script>
 </head
 
 <body>
@@ -34,12 +35,19 @@
                 <label>NOTA DO QUARTO BIMESTRE</label>
                 <input type="number" id="n4" max="10" min="0">
 
-                <input type="submit" value="CALCULAR" onclick=calcular()>
+                <br>
+
+                <input class="btn" type="button" value="CALCULAR" onclick=calcular()>
+
+                <br>
+
+                <p class="resultadoTitulo">RESULTADO:</p>
+                <p id="resultado"></p>
+
             </fieldset>
         </form>
         
-        <p class="resultadoTitulo">RESULTADO:</p>
-        <p id="resultado"></p>
+        
     </div>
 </body>
 </html>
