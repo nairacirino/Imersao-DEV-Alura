@@ -1,0 +1,25 @@
+.titulo{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:cyan;
+}
+
+header, body{
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+
+div, form{
+    text-align: center;
+}
+.entrada,label,input{
+    width: 75%;
+    display: block;
+    text-align: center;
+}
+
+
+
