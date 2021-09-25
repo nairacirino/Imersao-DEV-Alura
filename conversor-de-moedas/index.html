@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>   
+    <meta charset="UTF-8">
+    <title class="titulo">Conversor de Moedas</title>
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/index.js"></script>
+</head
+
+<body>
+    <header class="cabeçalho">
+        <h1>CONVERSOR DE MOEDAS</h1>
+        <p>Descubra os valores em real R$</p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="logo" alt="">
+    </header>
+
+    <div class="entrada">
+        <form>
+            <fieldset>
+                <legend>DIGITE O VALOR EM U$:</legend>
+                <br>
+                <label>Insira o valor:</label>
+                <input type="number" id="dolar">
+
+                <br>
+
+                <input class="btn" type="button" value="CONVERTER" onclick=converter()>
+
+                <br>
+
+                <p class="resultadoTitulo">RESULTADO:</p>
+                <p id="resultado"></p>
+
+            </fieldset>
+        </form>
+        
+        
+    </div>
+</body>
+</html>
