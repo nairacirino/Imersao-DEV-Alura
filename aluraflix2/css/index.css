@@ -1,0 +1,42 @@
+header, body{
+    background-color: #000000;
+    font-family: 'ARIAL';
+    font-size: 100%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+form{
+    text-align: center;
+}
+
+.entrada,label,input{
+    width: 50%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button{
+    width: 50%;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+}
+
+img {
+    max-height: 250px;
+    margin: 10px;
+}
+
+.resultado{
+    font-family: 'ARIAL';
+    font-size: 100%;
+    color: #000000;
+}
