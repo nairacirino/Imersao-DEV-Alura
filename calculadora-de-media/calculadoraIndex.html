@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!--METADADOS-->
+    <title class="titulo">Calculadora de média</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ARQUIVOS EXTERNOS-->
+    <link href="css/calculadoraIndex.css" rel="stylesheet">
+    <script type="text/javascript" src="js/calculadoraIndex.js"></script>
+</head>
+
+<body>
+    <main>
+        <aside class="banner">
+            <header>
+                <img src="./img/logo-imersao-conversor-de-moedas.svg" alt="Logo da Imersão Dev">
+                <h1>Calculadora de Média</h1>
+            </header>
+            <p>Projeto desenvolvido na aula 1 da Imersão Dev da Alura. Trata-se de uma calculadora de média feita em HTML, CSS e JS. Consulte a documentação completa <a href="">aqui</a>. A imagem de fundo foi criada por Starline e está disponível no site <a href='https://www.freepik.es/vectores/coche'>Freepik</a>.</p>
+        </aside>
+
+        <section class="entrada">
+            <form>
+                <fieldset>
+                    <legend>INSIRA OS DADOS NO FORMULÁRIO ABAIXO</legend>
+                    <br>
+                    <label>Nome</label>
+                    <input type="text" id="nomeAluno" placeholder="Insira o nome do aluno">
+
+                    <label>Nota do 1° Bimestre</label>
+                    <input type="number" id="n1" max="10" min="0" placeholder="De 0 a 10">
+
+                    <label>Nota do 2° Bimestre</label>
+                    <input type="number" id="n2" max="10" min="0" placeholder="De 0 a 10">
+
+                    <label>Nota do 3° Bimestre</label>
+                    <input type="number" id="n3" max="10" min="0" placeholder="De 0 a 10">
+
+                    <label>Nota do 4° Bimestre</label>
+                    <input type="number" id="n4" max="10" min="0" placeholder="De 0 a 10">
+
+                    <br>
+
+                    <input class="btn" type="button" value="CALCULAR" onclick=calcular()>
+
+                    <br>
+
+                    <p class="resultadoTitulo">RESULTADO:</p>
+                    <p id="resultado"></p>
+
+                </fieldset>
+            </form>
+            </div>
+    </main>
+</body>
+
+</html>
