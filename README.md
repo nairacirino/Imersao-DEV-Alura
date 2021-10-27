@@ -1,6 +1,6 @@
 <a href="https://tenor.com/view/busy-cat-coko-mixflavor-work-gif-14850999"><img align="right" src="./busycat.gif" alt="screenshot do deploy" width="20%"/></a>
 
-# Imersao-Dev-Alura
+# Imersão Dev da Alura
 
 <img src="https://img.shields.io/badge/STATUS-Developing-red" alt="badge"/>
 
@@ -23,7 +23,7 @@ Trata-se de projeto ainda em construção, mesmo já tendo sido encerrado o even
 
 O seguinte deploy já está disponível:
 
-- <a target="_blank" href="https://nairacirino.github.io/NLW-Heat-Rocketseat/">Calculadora de Média</a>.
+- <a target="_blank" href="https://calculadorademedia.netlify.app/">Calculadora de Média</a>.
 
 ## LINGUAGENS E FERRAMENTAS UTILIZADAS
 
