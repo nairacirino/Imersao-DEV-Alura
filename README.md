@@ -1,6 +1,6 @@
 <img align="right" src="./busycat.gif" alt="screenshot do deploy" width="20%"/>
 
-# Imersao Dev da Alura
+# Imersão Dev da Alura
 
 <img src="https://img.shields.io/badge/STATUS-Developing-red" alt="badge"/>
 
