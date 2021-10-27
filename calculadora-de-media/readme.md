@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/STATUS-Loading-yellow" alt="badge"/>
 
-<img src="screenshot.png" alt="screenshot do deploy" width="100%"/>
+<img src="./img/screenshot.png" alt="screenshot do deploy" width="100%"/>
 
 ## SUMARIO
 
