@@ -4,8 +4,7 @@
 
 ## SUMARIO
 
-<div class="tenor-gif-embed" data-postid="14850999" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/busy-cat-coko-mixflavor-work-gif-14850999">Busy Cat Sticker</a>from <a href="https://tenor.com/search/busy-stickers">Busy Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-<!--img align="right" src="screenshot.png" alt="screenshot do deploy" width="40%"/-->
+<img align="right" src="https://tenor.com/view/busy-cat-coko-mixflavor-work-gif-14850999" alt="screenshot do deploy" width="40%"/>
 
    * [Descrição do Projeto](#DESCRIÇÃO-DO-PROJETO)
    * [Deploy](#DEPLOY)
