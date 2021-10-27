@@ -4,7 +4,7 @@
 
 ## SUMARIO
 
-<img align="right" src="https://tenor.com/view/busy-cat-coko-mixflavor-work-gif-14850999" alt="screenshot do deploy" width="40%"/>
+<img align="right" src="./busycat.gif" alt="screenshot do deploy" width="40%"/>
 
    * [Descrição do Projeto](#DESCRIÇÃO-DO-PROJETO)
    * [Deploy](#DEPLOY)
