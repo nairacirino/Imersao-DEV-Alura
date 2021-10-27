@@ -30,7 +30,7 @@ Usando o projeto original como base, fiz algumas alterações:
 
 ## DEPLOY
 
-O deploy está disponível <a target="_blank" href="">aqui</a>.
+O deploy está disponível <a target="_blank" href="https://calculadorademedia.netlify.app">aqui</a>.
 
 ## LINGUAGENS E FERRAMENTAS UTILIZADAS
 
