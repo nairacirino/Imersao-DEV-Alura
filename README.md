@@ -2,9 +2,9 @@
 
 <img src="https://img.shields.io/badge/STATUS-Developing-red" alt="badge"/>
 
-## SUMARIO
-
 <img align="right" src="./busycat.gif" alt="screenshot do deploy" width="40%"/>
+
+## SUMARIO
 
    * [Descrição do Projeto](#DESCRIÇÃO-DO-PROJETO)
    * [Deploy](#DEPLOY)
