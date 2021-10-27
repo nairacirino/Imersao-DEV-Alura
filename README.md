@@ -1,4 +1,4 @@
-<img align="right" src="./busycat.gif" alt="screenshot do deploy" width="40%"/>
+<img align="right" src="./busycat.gif" alt="screenshot do deploy" width="20%"/>
 
 # Imersao-Dev-Alura
 
