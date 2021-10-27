@@ -23,7 +23,7 @@ Trata-se de projeto ainda em construção, mesmo já tendo sido encerrado o even
 
 O seguinte deploy já está disponível:
 
-- <a target="_blank" href="https://nairacirino.github.io/NLW-Heat-Rocketseat/">Calculadora de Média</a>.
+- <a target="_blank" href="https://calculadorademedia.netlify.app/">Calculadora de Média</a>.
 
 ## LINGUAGENS E FERRAMENTAS UTILIZADAS
 
