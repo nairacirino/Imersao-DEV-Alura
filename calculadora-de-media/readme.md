@@ -1,6 +1,6 @@
 # CALCULADORA DE MEDIA 
 
-<img src="https://img.shields.io/badge/STATUS-Loading-yellow" alt="badge"/>
+<img src="https://img.shields.io/badge/STATUS-Pendind Review-orange" alt="badge"/>
 
 <img src="./img/screenshot.png" alt="screenshot do deploy" width="100%"/>
 
@@ -14,9 +14,9 @@
 
 ## DESCRIÇÃO DO PROJETO ORIGINAL
 
-Projeto desenvolvido na primeira aula da Imersão DEV, evento produzido pela Alura em Setembro de 2021.
+Projeto desenvolvido com base na primeira aula da Imersão DEV, evento produzido pela Alura em Setembro de 2021.
 
-O projeto original pode ser visualizado no <a target="_blank" href="https://codepen.io/imersao-dev/pen/xxdJwRe?editors=0010">Codepen</a>. Trata-se de uma calculadora de média. No projeto original, os valores foram alimentados diretamente no código JS 
+O projeto original pode ser visualizado no <a target="_blank" href="https://codepen.io/imersao-dev/pen/xxdJwRe?editors=0010">Codepen</a>. Trata-se de uma calculadora de média. No projeto original, os valores foram alimentados diretamente no código JS.
 
 
 ## ALTERAÇÕES
