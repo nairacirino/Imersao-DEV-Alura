@@ -40,11 +40,11 @@ function exchange() {
             } else {
                 if (realInicial == 0 && dolarInicial > 0) {
                     dolarFinal = dolarInicial * ptax
-                    conversionResult.textContent = (`RESULTADO: O valor convertido é de US$ ${dolarFinal.toFixed(2)}.`)
+                    conversionResult.textContent = (`RESULTADO: O valor convertido é de R$ ${dolarFinal.toFixed(2)}.`)
                 } else {
                     if (realInicial > 0 && dolarInicial == 0) {
                         realFinal = realInicial / ptax
-                        conversionResult.textContent = (`RESULTADO: O valor convertido é de R$ ${realFinal.toFixed(2)}.`)
+                        conversionResult.textContent = (`RESULTADO: O valor convertido é de US$ ${realFinal.toFixed(2)}.`)
                     } else {
                         if (realInicial == 0 && realInicial == 0) {
                             conversionResult.textContent = ("RESULTADO: Insira um valor inicial em Real ou Dólar")
