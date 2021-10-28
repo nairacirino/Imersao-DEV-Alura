@@ -11,7 +11,7 @@ var cartas = [
     }),
     (carta3 = {
         nome: "Bulbasauro",
-        atributos: { ataque: 3, defesa: 10, magia: 6 }
+        atributos: { ataque: 5, defesa: 10, magia: 8 }
     })
 ];
 
@@ -19,10 +19,11 @@ var cartaJogador;
 var cartaMaquina;
 var indiceMaquina = 0;
 var indiceJogador = 0;
+var opcoesRadioButton;
 
-//SORTEIO DAS CARTAS
-
+// BOTÃO SORTEAR CARTA
 function sortearCarta() {
+    //SORTEIO DE CARTA
     while (indiceMaquina == indiceJogador) {
         var indiceMaquina = parseInt(Math.random() * cartas.length);
         var indiceJogador = parseInt(Math.random() * cartas.length);
@@ -31,6 +32,22 @@ function sortearCarta() {
     cartaJogador = cartas[indiceJogador];
     cartaMaquina = cartas[indiceMaquina];
 
-    console.log(cartaMaquina);
-    console.log(cartaJogador);
+    //DESABILITANDO BOTÃO
+    document.getElementById("btnSortear").disabled = true;
+    document.getElementById("btnJogar").disabled = false;
+
+    criarRadioButton();
+}
+
+//GERANDO RADIO BUTTON
+function criarRadioButton() {
+    var radioButton = document.getElementById("radioButton")
+    var opcoesRadioButton = ""
+
+    // LISTANDO ATRIBUTOS
+
+    for (var i in cartaJogador.atributos) {
+        opcoesRadioButton += "<input type='radio' name='atributo' value='" + i + "'>" + i;
+    }
+    radioButton.innerHTML(opcoesRadioButton);
 }

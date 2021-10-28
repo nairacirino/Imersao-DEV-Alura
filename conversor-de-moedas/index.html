@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>   
-    <meta charset="UTF-8">
+<head>
+    <!--METADADOS-->
     <title class="titulo">Conversor de Moedas</title>
-    <link href="css/index.css" rel="stylesheet">
-    <script type="text/javascript" src="js/index.js"></script>
-</head
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ARQUIVOS EXTERNOS-->
+    <link href="css/conversorIndex.css" rel="stylesheet">
+    <script type="text/javascript" src="js/conversorIndex.js"></script>
+</head>
 
 <body>
-    <header class="cabeçalho">
-        <h1>CONVERSOR DE MOEDAS</h1>
-        <p>Descubra os valores em real R$</p>
-        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="logo" alt="">
-    </header>
+    <main>
+        <aside class="banner">
+            <header>
+                <img src="./img/logo-imersao-conversor-de-moedas.svg" alt="Logo da Imersão Dev">
+                <h1>Conversão de Moedas</h1>
+            </header>
+            <p>Projeto desenvolvido com base na aula 2 da Imersão Dev da Alura. Trata-se de um conversor de moedas feito em HTML, CSS, JS e JSON. Consulte a documentação completa <a href="https://github.com/nairacirino/Imersao-DEV-Alura/tree/main/conversor-de-moedas">aqui</a>.</p>
+        </aside>
 
-    <div class="entrada">
-        <form>
-            <fieldset>
-                <legend>DIGITE O VALOR EM U$:</legend>
-                <br>
-                <label>Insira o valor:</label>
-                <input type="number" id="dolar">
+        <section class="entrada">
+            <form>
+                <fieldset>
+                    <legend>INSIRA OS DADOS NO FORMULÁRIO ABAIXO</legend>
+                    <br>
+                    <p>
+                        Orientações: inserir somente números. O valor a ser convertido deve estar em Reais OU em Dólares. Não são processadas conversões simultâneas. 
+                    </p>
+                    <p>CONVERTENDO DE REAIS PARA DÓLARES</p>
+                    <label>Insira o valor em R$ a ser convertido para US$</label>
+                    <input type="number" id="realInput" placeholder="Valor em R$">
 
-                <br>
+                    <p>CONVERTENDO DE DÓLARES PARA REAIS</p>
+                    <label>Insira o valor em US$ a ser convertido para R$</label>
+                    <input type="number" id="dolarInput" placeholder="Valor em US$">
 
-                <input class="btn" type="button" value="CONVERTER" onclick=converter()>
+                    <br>
 
-                <br>
+                    <input class="btn" type="button" value="CALCULAR" onclick=exchange()>
 
-                <p class="resultadoTitulo">RESULTADO:</p>
-                <p id="resultado"></p>
+                    <br>
 
-            </fieldset>
-        </form>
-        
-        
-    </div>
+                    <p id="conversionResult" class="resultadoTitulo">RESULTADO</p>
+
+                </fieldset>
+            </form>
+            </div>
+    </main>
 </body>
+
 </html>
