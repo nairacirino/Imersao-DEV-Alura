@@ -26,18 +26,18 @@
                 <fieldset>
                     <legend>INSIRA OS DADOS NO FORMULÁRIO ABAIXO</legend>
                     <br>
-                    <label>Nome</label>
+                    <label for="nomeAluno">Nome</label>
                     <input type="text" id="nomeAluno" placeholder="Insira o nome do aluno">
-                    <label>Nota do 1° Bimestre</label>
+                    <label for="n1">Nota do 1° Bimestre</label>
                     <input type="number" id="n1" max="10" min="0" placeholder="De 0 a 10">
-                    <label>Nota do 2° Bimestre</label>
+                    <label for="n2">Nota do 2° Bimestre</label>
                     <input type="number" id="n2" max="10" min="0" placeholder="De 0 a 10">
-                    <label>Nota do 3° Bimestre</label>
+                    <label for="n3">Nota do 3° Bimestre</label>
                     <input type="number" id="n3" max="10" min="0" placeholder="De 0 a 10">
-                    <label>Nota do 4° Bimestre</label>
+                    <label for="n4">Nota do 4° Bimestre</label>
                     <input type="number" id="n4" max="10" min="0" placeholder="De 0 a 10">
                     <br>
-                    <input class="btn" type="button" value="CALCULAR" onclick=calcular()>
+                    <input class="btn" type="button" value="CALCULAR" title="calcular" onclick=calcular()>
                     <br>
                     <h2 class="resultadoTitulo">RESULTADO:</h2>
                     <p id="resultado"></p>
