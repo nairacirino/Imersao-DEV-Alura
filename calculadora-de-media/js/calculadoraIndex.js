@@ -8,6 +8,6 @@ function calcular() {
     if (media > 5) {
         document.getElementById("resultado").innerHTML = `O(A) aluno(a) ${nomeAluno} foi APROVADO(A) com média ${media}.`;
     } else {
-        document.getElementById("resultado").innerHTML = `O(A) aluno(a) ${nomeAluno} foi REPROVADA com média ${media}.`
+        document.getElementById("resultado").innerHTML = `O(A) aluno(a) ${nomeAluno} foi REPROVADO(A) com média ${media}.`
     }
 }
