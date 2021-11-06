@@ -21,9 +21,12 @@ Trata-se de projeto ainda em construção, mesmo já tendo sido encerrado o even
 
 ## DEPLOY
 
-O seguinte deploy já está disponível:
+Os seguintes deploys já estão disponíveis:
 
 - <a target="_blank" href="https://calculadorademedia.netlify.app/">Calculadora de Média</a>.
+- <a target="_blank" href="https://convertendodolares.netlify.app/">Conversor de Dólares</a>.
+- <a target="_blank" href="https://mentalistaimersaodev.netlify.app/">O Mentalista</a>.
+- <a target="_blank" href="https://alurafliximersaodev.netlify.app/">Aluraflix</a>.
 
 ## LINGUAGENS E FERRAMENTAS UTILIZADAS
 
