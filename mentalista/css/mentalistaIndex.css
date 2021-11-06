@@ -45,11 +45,11 @@ main {
     gap: 2%;
 }
 
-.banner {
+header {
     width: 40%;
 }
 
-.banner p {
+header p {
     text-align: justify;
 }
 
