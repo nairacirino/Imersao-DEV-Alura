@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>   
+<head>
     <meta charset="UTF-8">
     <title class="titulo">Aluraflix</title>
     <link href="css/index.css" rel="stylesheet">
@@ -9,35 +9,41 @@
 </head>
 
 <body>
-    <header class="cabeçalho">
-        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="logo" alt="">
-        <h1>AluraFlix</h1>
-    </header>
+    <main>
+        <div class="header">
+            <header class="cabeçalho">
+                <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+                    class="logo" alt="">
+                <h1>AluraFlix</h1>
+            </header>
 
-    <p>Esses são alguns dos meus filmes e séries preferidos:</p>
-    <p id="meusFilmes"></p>
-    <script type="text/javascript" src="js/parte1.js"></script>
+            <p>Esses são alguns dos meus filmes e séries preferidos:</p>
+            <p id="meusFilmes"></p>
+            <script type="text/javascript" src="js/parte1.js"></script>
+        </div>
+        <div class="entrada">
+            <form>
+                <fieldset>
+                    <legend class="big">Que tal dividir comigo alguns dos seus?</legend>
+                    <br>
+                    <label>Insira a URL da imagem aqui (com extensão .jpg, combinado?):</label>
+                    <input type="text" id="seusFilmes">
 
-    <div class="entrada">
-        <form>
-            <fieldset>
-                <legend class="big">Que tal dividir comigo alguns dos seus?</legend>
-                <br>
-                <label>Insira a URL da imagem aqui (com extensão .jpg, combinado?):</label>
-                <input type="text" id="seusFilmes">
-        
-                <br>
-        
-                <input class="btn" type="button" value="Enviar" onclick=enviar();>
-        
-                <br>
-    
-                <div class="resultado"><p id="resultado"></p></div>
-    
-            </fieldset>
-        </form>
-    
-    </div>
+                    <br>
 
+                    <input class="btn" type="button" value="Enviar" onclick=enviar();>
+
+                    <br>
+
+                    <div class="resultado">
+                        <p id="resultado"></p>
+                    </div>
+
+                </fieldset>
+            </form>
+
+        </div>
+    </main>
 </body>
+
 </html>
