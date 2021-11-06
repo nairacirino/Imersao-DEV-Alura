@@ -1,7 +1,7 @@
 header, body{
     background-color: #000000;
     font-family: 'ARIAL';
-    font-size: 100%;
+    font-size: 120%;
     color: #FFFFFF;
     text-align: center;
 }
@@ -33,4 +33,10 @@ form{
 img {
     max-height: 250px;
     margin: 10px;
+}
+
+.resultado{
+    font-family: 'ARIAL';
+    font-size: 100%;
+    color: #000000;
 }
