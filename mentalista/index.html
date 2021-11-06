@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>   
+<head>
     <meta charset="UTF-8">
     <title class="titulo">Mentalista</title>
-    <link href="css/index.css" rel="stylesheet">
-    <script type="text/javascript" src="js/index.js"></script>
-</head
+    <link href="css/mentalistaIndex.css" rel="stylesheet">
+    <script src="js/index.js"></script>
+</head>
 
 <body>
-    <header class="cabeçalho">
-        <h1>MENTALISTA</h1>
-        <p>Vamos brincar de adivinhar números?</p>
-        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="logo" alt="">
-    </header>
+    <main>
+        <header class="cabeçalho">
+            <h1>MENTALISTA</h1>
+            <p>Vamos brincar de adivinhar números?</p>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+                class="logo" alt="">
+        </header>
+        <div class="entrada">
+            <form>
+                <fieldset>
+                    <legend>EM QUE NÚMERO ESTOU PENSANDO?</legend>
+                    <br>
+                    <label>Digite um número de 0 a 10:</label>
+                    <input type="number" id="chute">
 
-    <div class="entrada">
-        <form>
-            <fieldset>
-                <legend>EM QUE NÚMERO ESTOU PENSANDO?</legend>
-                <br>
-                <label>Digite um número de 0 a 10:</label>
-                <input type="number" id="chute">
+                    <br>
 
-                <br>
+                    <input class="btn" type="button" value="ADIVINHAR" onclick=adivinhar();>
 
-                <input class="btn" type="button" value="ADIVINHAR" onclick=adivinhar();>
+                    <br>
 
-                <br>
+                    <p class="resultadoTitulo">RESULTADO:</p>
+                    <p id="resultado"></p>
 
-                <p class="resultadoTitulo">RESULTADO:</p>
-                <p id="resultado"></p>
+                </fieldset>
+            </form>
 
-            </fieldset>
-        </form>
-        
-        
-    </div>
+
+        </div>
+    </main>
 </body>
+
 </html>
