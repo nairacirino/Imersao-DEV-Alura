@@ -16,12 +16,18 @@ main {
     gap: 2%;
 }
 
+img {
+    max-height: 250px;
+    max-width: 28%;
+    margin: 10px;
+}
+
 .header {
     width: 40%;
 }
 
-.logo {
-    width: 200px;
+.logo img {
+    width: 50%;
 }
 
 form{
@@ -42,11 +48,6 @@ form{
 .btn{
     width: 150px;
     height: 40px;
-}
-
-img {
-    max-height: 250px;
-    margin: 10px;
 }
 
 .resultado{
