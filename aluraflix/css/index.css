@@ -6,6 +6,20 @@ header, body{
     text-align: center;
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 5%;
+    gap: 2%;
+}
+
+.header {
+    width: 40%;
+}
+
 .logo {
     width: 200px;
 }
